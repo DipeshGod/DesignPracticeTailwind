@@ -10,6 +10,7 @@ import {
   Stats,
   Testimonials,
   Hero,
+  Courses,
 } from "./components";
 
 const App = () => (
@@ -29,6 +30,15 @@ const App = () => (
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Stats />
+      </div>
+    </div>
+
+    <div className={`bg-primary ${styles.flexStart}`}>
+      <Courses />
+    </div>
+
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
         <WantToContribute />
         <Features />
         <CommunityBased />
