@@ -1,6 +1,6 @@
-import styles from "../style";
-import { discount, elearning } from "../assets";
-import Button from "./Button";
+import styles from '../style';
+import { discount, elearning } from '../assets';
+import Button from './Button';
 
 const Hero = () => {
   return (
@@ -14,25 +14,25 @@ const Hero = () => {
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
-            <span className="text-white">100%</span> Free For{" "}
-            <span className="text-white">1st thousand</span> Users
+            <span className="text-white">25% off for limited time</span>
           </p>
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            Next Generation <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Open Source</span>{" "}
+            Make Yourself <br className="sm:block hidden" />{' '}
+            <span className="text-gradient">Industry Ready</span>{' '}
           </h1>
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          Learning Platform
+          Software Engineer
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Get unlimited access to top notch courses build by community of
-          experts. We are to be most affordale education platform without
-          compromises
+          We're dedicated to excellence in every aspect of our curriculum. We
+          know that theoretical knowledge alone isn't enough to thrive in
+          today's fast-paced industry. That's why our courses are meticulously
+          crafted to be practical, engaging, and hands-on.
         </p>
         <Button styles={`mt-10`} />
       </div>
